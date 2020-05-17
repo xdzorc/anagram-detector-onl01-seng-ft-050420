@@ -7,12 +7,13 @@ class Anagram
   end
   
   def match(word_new)
-    word_new.each do|x|
+    haha=[]
+    word_new.collect do|x|
       if x.split.sort ==@word.split("").sort
-        @word
+         haha << x
       end
      end
-        @word
+        
   end
   
 end
