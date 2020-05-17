@@ -13,7 +13,7 @@ class Anagram
          haha << x
       end
      end
-    haha
+    
   end
   
 end
