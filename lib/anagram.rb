@@ -7,7 +7,8 @@ class Anagrams
   end
   
   def match(word_new)
-    word_new.each
+    word_new.each do|x|
+     
 end
   
   
