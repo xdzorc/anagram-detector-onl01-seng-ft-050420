@@ -9,10 +9,10 @@ class Anagram
   def match(word_new)
     word_new.each do|x|
       if x.split.sort ==@word.split("").sort
-        word
+        @word
       end
      end
-        word
+        @word
   end
   
 end
